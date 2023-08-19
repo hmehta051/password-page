@@ -1,0 +1,96 @@
+.bodySubContainer {
+  height: 90.5%;
+  width: 100%;
+}
+.bodyInnerWrapper {
+  padding: 26px 19px 0px 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 18px;
+  height: 100%;
+}
+.bodyText {
+  color: #333;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bodyTable {
+  height: 100%;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+tbody tr {
+  border-bottom: 0.75px solid #ebebeb;
+  color: #333;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 70px;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+label span {
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+  color: #808080;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.trHead {
+  height: 50px;
+}
+.checkHeder {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+}
+#checkboxAll {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1.5px solid #cbd5e1;
+  background: #fff;
+}
+.deleteIcon {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
